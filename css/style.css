@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(to right, #73096b, #e60ddb);
+    display: flex;
+    justify-content: center;
+}
+.userCardContainer{
+    width: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.userInfoContainer > *{
+    margin: 10px auto;
+    text-align: center;
+}
+.userPhoto{
+    border: 3px solid #73096b;
+    box-shadow: 0 0 0 5px white;
+    width: 100px;
+    height: 100px;
+    margin-top: -53px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+.userPhoto > img{
+    width: 100%;
+}
+.userInfoContainer > h1{
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
+.job{
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(190,190,190,1);
+}
+.location{
+    font-size: 13px;
+    color: rgba(190,190,190,0.8);
+}
+.userInfoContainer > hr{
+    margin: 10px 20px;
+    border: 0.5px solid gray;
+    opacity: 10%;
+}
+.followersCounter{
+    font-size: 13px;
+    color: rgba(190,190,190,0.8);
+}
+.followersAvatar > a{
+    display: inline-block;
+    background-color: rgba(190,190,190,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 5px;
+}
+.followersAvatar >a >img{
+    height: 100%;
+}
+.buttonsConteiner > button{
+    display: inline-block;
+    width: 25%;
+    height: 30px;
+    border-radius: 2px;
+    margin: auto 10px;
+    background-color: rgba(190,190,190,0.8);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.buttonsConteiner > button:hover {
+    box-shadow: 3px 3px 3px 0 rgba(190,190,190,0.8), 3px 3px 3px 0 rgba(190,190,190,0.8);
+}
+.socialMedia > a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.3;
+    border-right: 1px solid rgba(190,190,190,1);
+    padding-right: 5px;
+}
+.socialMedia > a:last-child{
+    border-right: none;
+    padding-right: 0px;
+}
+.socialMedia >a >img{
+    height: 100%;
+}
+
